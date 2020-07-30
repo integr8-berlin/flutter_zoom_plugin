@@ -29,6 +29,10 @@ android {
         exclude 'res/drawable-xhdpi-v4/zm_next_arrow_pressed.png'
         exclude 'AndroidManifest.xml'
         exclude 'annotations.zip'
+        exclude 'classes.jar'
+        exclude 'res/drawable-xhdpi-v4/zm_next_arrow_normal.png'
+        exclude 'R.txt' 
+        exclude 'res/values/values.xml'
     }
     
     defaultConfig {
