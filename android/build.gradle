@@ -23,7 +23,12 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
-
+    
+   packagingOptions {
+        exclude 'res/drawable/zm_next_arrow.xml'
+        exclude 'zm_next_arrow.xml'
+    }
+    
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 29
