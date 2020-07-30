@@ -25,8 +25,8 @@ android {
     compileSdkVersion 29
     
    packagingOptions {
-        exclude 'res/drawable/zm_next_arrow.xml'
-        exclude 'zm_next_arrow.xml'
+        pickFirst 'res/drawable/zm_next_arrow.xml'
+        pickFirst 'res/drawable-xhdpi-v4/zm_next_arrow_pressed.png'
     }
     
     defaultConfig {
